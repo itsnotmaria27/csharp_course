@@ -10,6 +10,9 @@ namespace math1
     {
         static void Main(string[] args)
         {
+            int a = 4;
+            int p = a * 4;
+            Console.WriteLine(p);
         }
     }
 }
