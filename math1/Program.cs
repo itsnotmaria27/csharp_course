@@ -39,6 +39,22 @@ namespace math1
                 Console.WriteLine(true);
             }
 
+            int j = 7;
+            int t = 9;
+
+            if (j == t)
+            {
+                j = 0;
+                t = 0;
+                Console.WriteLine($"{j}, {t}");
+            }
+            else
+            {
+                j = j + t;
+                t = j + t;
+                Console.WriteLine($"{j}, {t}");
+            }
+
             Console.ReadKey();
         }
     }
