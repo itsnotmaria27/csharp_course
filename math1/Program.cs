@@ -10,8 +10,8 @@ namespace math1
     {
         static void Main(string[] args)
         {
-            int a = 4;
-            int p = a * 4;
+            int s = 4;
+            int p = s * 4;
             Console.WriteLine(p);
 
             int n = 123;
@@ -30,6 +30,15 @@ namespace math1
                 y /= 10;
             }
             Console.WriteLine("Произведение цифр = " + o);
+         
+
+            int a = 5;
+            int b = 3;
+            if (a > 2 & b <= 3)
+            {
+                Console.WriteLine(true);
+            }
+
             Console.ReadKey();
         }
     }
