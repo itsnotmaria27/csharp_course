@@ -81,6 +81,18 @@ namespace math1
                     Console.WriteLine("Sunday");
                     break;
             }
+
+            Console.WriteLine("Введите l");
+            string str2 = Console.ReadLine();
+            int l = Int32.Parse( str2 );
+            Console.WriteLine("Введите v");
+            string str3 = Console.ReadLine();
+            int v = Int32.Parse(str2);
+
+            for (int  i = 0; i <= l; i++)
+            {
+                Console.WriteLine(v);
+            }
             Console.ReadKey();
         }
     }
