@@ -89,7 +89,7 @@ namespace math1
             string str3 = Console.ReadLine();
             int v = Int32.Parse(str2);
 
-            for (int  i = 0; i <= l; i++)
+            for (int  d = 0; d <= l; d++)
             {
                 Console.WriteLine(v);
             }
@@ -110,6 +110,19 @@ namespace math1
                 }
             }
             Console.WriteLine(result);
+
+            int i, _, sum = 0; 
+
+            Console.Write("Input the 10 numbers : \n");  // Prompting the user to input 10 numbers
+            for (i = 1; i <= 10; i++)  // Loop to read 10 numbers
+            {
+                Console.Write("Number-{0} :", i);  // Prompting for each number with its respective index
+
+                _ = Convert.ToInt32(Console.ReadLine());  // Reading each number entered by the user
+                sum += n;  // Adding each number to the sum
+            }
+
+            Console.Write("The sum of 10 numbers is : {0}", sum);
             Console.ReadKey();
         }
     }
