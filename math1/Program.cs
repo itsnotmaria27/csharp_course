@@ -93,6 +93,23 @@ namespace math1
             {
                 Console.WriteLine(v);
             }
+            int N = Int32.Parse(Console.ReadLine());
+            bool result = false;
+            int K = 1;
+            while (N >= Math.Pow(3, K))
+            {
+                if (N == Math.Pow(3, K))
+                {
+                    result = true;
+                    break;
+                }
+                else
+                {
+                    result = false;
+                    K++;
+                }
+            }
+            Console.WriteLine(result);
             Console.ReadKey();
         }
     }
