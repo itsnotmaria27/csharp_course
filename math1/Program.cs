@@ -113,13 +113,13 @@ namespace math1
 
             int i, _, sum = 0; 
 
-            Console.Write("Input the 10 numbers : \n");  // Prompting the user to input 10 numbers
-            for (i = 1; i <= 10; i++)  // Loop to read 10 numbers
+            Console.Write("Input the 10 numbers : \n");  
+            for (i = 1; i <= 10; i++)  
             {
-                Console.Write("Number-{0} :", i);  // Prompting for each number with its respective index
+                Console.Write("Number-{0} :", i);  
 
-                _ = Convert.ToInt32(Console.ReadLine());  // Reading each number entered by the user
-                sum += n;  // Adding each number to the sum
+                _ = Convert.ToInt32(Console.ReadLine());  
+                sum += _;  
             }
 
             Console.Write("The sum of 10 numbers is : {0}", sum);
